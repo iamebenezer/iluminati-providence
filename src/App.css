@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body{
+    background-color: #000;
+}
+
+section{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    
+}
+.web-scroll{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+@font-face {
+    font-family: head;
+    src: url(/src/assets/fonts/blood_crow/bloodcrows.ttf);
+}
+@font-face {
+    font-family: texts;
+    src: url(/src/assets/fonts/blood_lust/BloodLust.ttf);
+}
+
+.spin{
+    animation-name:spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+}
