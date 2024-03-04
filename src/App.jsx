@@ -2,7 +2,6 @@ import './App.css'
 import logo from './assets/images/logo.png'
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import skull from './assets/images/t-2.png'
 import intro from './assets/videos/intro-1.mp4'
 function App() {
 
@@ -225,7 +224,7 @@ function App() {
               <h3 className='font-texts md:text-[30px] text-[25px]'>CA:</h3>
             <p className='md:text-[25px] font-head text-[30px]'>Ox00000000</p>          
 
-          <img src={skull} className='w-32' alt="" />
+   
                             </div>
                 
 
