@@ -21,14 +21,14 @@ function App() {
               <li><a href="#">Home</a></li>
                 <li><a href="#abt">About</a></li>
                 <li><a href="#token">Tokenomics</a></li>
-                <li><a href="./assets/images/Whitepaper.pdf">WhitePaper</a></li>
+                <li><a href="whitepaper.pdf">WhitePaper</a></li>
         
               </ul>
               <ul className='hidden md:flex text-2xl text-white space-x-10 font-texts'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#abt">About</a></li>
                 <li><a href="#token">Tokenomics</a></li>
-                <li> <a href="./assets/images/Whitepaper.pdf">WhitePaper</a></li>
+                <li> <a href="/whitepaper.pdf">WhitePaper</a></li>
                 <li><a href="#join">Join Community</a></li>
               </ul>
             </div>
