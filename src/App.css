@@ -3,17 +3,25 @@
 @tailwind utilities;
 html, body{
     background-color: #000;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
 }
 
 section, footer{
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    
+    scroll-behavior: smooth;
 }
 .web-scroll{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: head;

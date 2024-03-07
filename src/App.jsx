@@ -18,17 +18,18 @@ function App() {
             </div>
             <div>
               <ul className='flex md:hidden space-x-5 font-texts text-white text-xl'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Tokenomics</li>
-                <li>Jounery</li>
+              <li><a href="#">Home</a></li>
+                <li><a href="#abt">About</a></li>
+                <li><a href="#token">Tokenomics</a></li>
+                <li><a href="./assets/images/Whitepaper.pdf">WhitePaper</a></li>
+        
               </ul>
               <ul className='hidden md:flex text-2xl text-white space-x-10 font-texts'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Tokenomics</li>
-                <li>Roadmap</li>
-                <li>Join Community</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#abt">About</a></li>
+                <li><a href="#token">Tokenomics</a></li>
+                <li> <a href="./assets/images/Whitepaper.pdf">WhitePaper</a></li>
+                <li><a href="#join">Join Community</a></li>
               </ul>
             </div>
           </nav>
@@ -100,7 +101,7 @@ function App() {
           </div>
         </section>
         {/* About */}
-        <section className="bg-[url('./assets/images/bg-3.png')] h-fit w-screen bg-cover bg-no-repeat">
+        <section id='abt' className="bg-[url('./assets/images/bg-3.png')] h-fit w-screen bg-cover bg-no-repeat">
         <div className="bg-[url('./assets/images/mobile-2.png')] md:bg-[url('./assets/images/desktopbg-2.png')] h-screen w-screen bg-cover bg-no-repeat">
        
           <div className='p-10 mx-8"'>
@@ -177,7 +178,7 @@ function App() {
           </section>
 
         {/* Tokenomics */}
-        <section className="bg-[url('./assets/images/bg-4.jpg')] h-fit w-screen bg-cover bg-no-repeat">
+        <section id='token' className="bg-[url('./assets/images/bg-4.jpg')] h-fit w-screen bg-cover bg-no-repeat">
         <div className="bg-[url('./assets/images/mobile-2.png')] md:bg-[url('./assets/images/desktopbg-2.png')] h-screen w-screen bg-cover bg-no-repeat">
         <div className='p-10 mx-8"'>
             <div className="text-center">
@@ -233,7 +234,7 @@ function App() {
           </section>
 
           {/* Community */}
-          <section className="bg-[url('./assets/images/bg-2.jpg')] h-fit w-screen bg-cover bg-no-repeat">
+          <section id='join' className="bg-[url('./assets/images/bg-2.jpg')] h-fit w-screen bg-cover bg-no-repeat">
         <div className="bg-[url('./assets/images/mobile-2.png')] md:bg-[url('./assets/images/desktopbg-2.png')] h-screen w-screen bg-cover bg-no-repeat">
        
         <div className='p-10 mx-8"'>
