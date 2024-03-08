@@ -2,6 +2,7 @@ import './App.css'
 import logo from './assets/images/logo.png'
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaRobot } from "react-icons/fa";
 import intro from './assets/videos/intro-1.mp4'
 function App() {
 
@@ -21,14 +22,14 @@ function App() {
               <li><a href="#">Home</a></li>
                 <li><a href="#abt">About</a></li>
                 <li><a href="#token">Tokenomics</a></li>
-                <li><a href="whitepaper.pdf">WhitePaper</a></li>
+                <li><a href="https://whitepaper.theilluminatieye.xyz/whitepaper.pdf">WhitePaper</a></li>
         
               </ul>
               <ul className='hidden md:flex text-2xl text-white space-x-10 font-texts'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#abt">About</a></li>
                 <li><a href="#token">Tokenomics</a></li>
-                <li> <a href="/whitepaper.pdf">WhitePaper</a></li>
+                <li> <a href="https://whitepaper.theilluminatieye.xyz/whitepaper.pdf">WhitePaper</a></li>
                 <li><a href="#join">Join Community</a></li>
               </ul>
             </div>
@@ -46,8 +47,8 @@ function App() {
              <h1 className='font-head text-white md:text-[70px] whitespace-normal'>Illuminati $EYE</h1>
              </div>
              <div className='flex space-x-10 text-white'>
-             <FaTelegramPlane size={40} />
-             <FaXTwitter size={40}/>
+            <a href="https://t.me/theilluminati_portal"> <FaTelegramPlane size={40} /></a>
+         <a href="https://x.com/TheEye_Team">  <FaXTwitter size={40}/></a>  
              </div>
           </div>
 
@@ -57,8 +58,8 @@ function App() {
               </div>
 
               <div className="text-white font-texts my-6">
-                    <a href="" className="bg-[url('./assets/images/bg-1.jpeg')] h-fit w-screen
-                     bg-no-repeat bg-cover px-4 py-3 rounded-2xl text-2xl text-center">Be a part of Us</a>
+                    <a href="https://t.me/TheIlluminatiEyeBot" className="bg-[url('./assets/images/bg-1.jpeg')] h-fit w-screen
+                     bg-no-repeat bg-cover px-4 py-3 rounded-2xl text-2xl text-center">The Eye</a>
                   </div>
            
           </div>
@@ -317,8 +318,10 @@ function App() {
                                  <div className="flex justify-center flex-col text-white items-center p-3">
 
                                   <div className="flex flex-row space-x-5">
-                                 <FaTelegramPlane size={30} />
-             <FaXTwitter size={30}/>
+                                  <a href="https://t.me/theilluminati_portal"> <FaTelegramPlane size={30} /></a>
+         <a href="https://x.com/TheEye_Team">  <FaXTwitter size={30}/></a>  
+
+         <a href="https://t.me/TheIlluminatiEyeBot"><FaRobot size={30}/></a>
              </div>
                                  
                                   <p className='text-white font-head'>Illuminati Eye 2024. All Rights Reserved.</p>
